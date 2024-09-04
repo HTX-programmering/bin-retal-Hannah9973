@@ -1,7 +1,18 @@
 //RESUME
 
 Det binære tal system:
+det binære tal system er en masse 1 og 0 taller, som man giver nogle værdier. 
+man bruger ofte titalssystemet. det går fra 0-9. man ville tror at det var fra 1-10, men det er det ikke siden
+0 til dagligdagsbrug er ingenting. men så snart vi putter det bagved et tal tidobler vi det. derfor er 10 = 1 med et 0 på.
+det handler bare om 0'ets placering.
+derfor bruger vi 0-9, så 0 får en værdi. 
+dette kan man udtrykke matematisk. 10 er grundtalet i talsystemet, eksponenten agiver tallets placering/værdi
+(0=ettere, 1=tierne, 2=hundredne og 3=tusinderne osv.) 1 er ciffret vi ønsker at kende værdien for. derfor bruger man 10^n Ø tallet.
+det kan man fx se på figur 1,2 og 3.
 
+dog normalt bruger vi istedet for ettere, tier, og hundrede bruger vi 1'ere, 2'ere, 4'ere, 8'ere, 16'ere, 32'ere, 64'ere, 128'ere, 256'ere, 512'ere,
+1024'ere også videre.
+det er præcis det samme som før. nu hedder det bare 2^n
 
 
 
