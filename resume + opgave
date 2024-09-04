@@ -4,16 +4,54 @@ Det binære tal system:
 
 
 
-Bytes og Bits 
+
+""Bytes og Bits"" 
+på en A4-side er der 40 linjer. så vil en byte have 8 linjer af de 40 (det kaldes også for
+for celler) siden et byte er 8 bits. 
+hver "celle" er en fordobling af den foregående værdi.
+fx kig på figur 3. der kan man se tabel med værdierne øverst (1 - 2 - 4 - 8 osv. (her kan man se fordoblingen)) 
+og rækken nedenunder viser hvor bittet er sat. der hvor 1-tallet er sat som værdien vil der stå 1 og 4...
+derfor vil den decimale værdi være 1 + 4 = 5
 
 
-Den maksimale værdi for en Bite 
+""Den maksimale værdi for en Bite"" 
+som sagt består et byte af 8 bits. 
+derfor er den maksimale værdi som et byte kan repræsentere 255. 
+(128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255) "se figur 4"
+dog hvis man skal bruge antallet af forskellige værdier er det 256... det er det fordi 0 tæller med.
+
+"Det betyder, at vi i en byte på 8 bit kan vælge, at hver værdi kan repræsentere en af regnbuen farver. Det gør
+det muligt at have 256 forskellige farver. " - fra programmerings PDF'en
 
 
-paritets bit 
+
+""paritets bit"" 
+hvis den første bit i en byte er sat, så er tallet ulige... hvis den ikke er, så er tallet lige. 
+derfor hedder det paritets bit eller "the least signigicant bit"
 
 
-the most significant bit 
+""the most significant bit"" 
+the most significant bit betyder hvis et byte er signed. det betyder, det kan både bruges til positive og negative
+værdier. det er den værdi der er længst til venstre, altså den største... i figur 4 var det 128.
+det bruges til at angive om det er et positivt eller negativt tal.
+
+
 
 
 OPGAVE:
+
+DATA:
+vinduernes betydning
+1 vindue --> kl l
+2 vindue --> kl 2
+3 vindue --> kl 4
+4 vindue --> kl 8 
+
+LØSNING:
+hvis hyrden skulle komme kl 3 skulle hun sætte lys i vindue nr. 1 og 2... (1 + 2 = 3)
+hvis hyrden skulle komme kl 5 skulle hun sætte lys i vindue nr. 3 og 1... (4 + 1 = 5)
+hvis hyrden skulle komme kl 10 skulle hun sætte lys i vindue nr. 4 og 2... (8 + 2 = 10)
+
+
+
+
